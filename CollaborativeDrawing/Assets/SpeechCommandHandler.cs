@@ -12,14 +12,10 @@ using System;
 
 namespace CollaborativeDrawing
 {
-    public class SpeechCommandHandler : MonoBehaviour //, ISpeechHandler
+    public class SpeechCommandHandler : MonoBehaviour , ISpeechHandler
     {
 
-        public string[] keywords = new string[] { "red", "green", "blue" };
-        public ConfidenceLevel confidence = ConfidenceLevel.Medium;
-
-        protected PhraseRecognizer recognizer;
-        protected string word = "right";
+ 
 
         ParticleSystem partBlue;
         ParticleSystem partGreen;
@@ -30,20 +26,20 @@ namespace CollaborativeDrawing
         int cntrG;
        
 
-        public GameObject RedBrush;
+        public GameObject RedBrush; 
         public GameObject GreenBrush;
         public GameObject BlueBrush;
      
 
         public List<Vector3> RtransformLocations;
-        public List<Vector3> GtransformLocations;
-        public List<Vector3> BtransformLocations;
+      //  public List<Vector3> GtransformLocations;
+     //   public List<Vector3> BtransformLocations;
   
 
         public Quaternion rquat;
 
         private Vector3 RLastLoc;
-        private Vector3 GLastLoc;
+       // private Vector3 GLastLoc;
        // private Vector3 BLastLoc;
 
 
@@ -51,15 +47,7 @@ namespace CollaborativeDrawing
         void Start()
         {
 
-            if (keywords != null)
-            {
-                recognizer = new KeywordRecognizer(keywords, confidence);
-                recognizer.OnPhraseRecognized += Recognizer_OnPhraseRecognized;
-                recognizer.Start();
-
-            }
-
-
+         
             partBlue = BlueBrush.GetComponent<ParticleSystem>();
             partGreen = GreenBrush.GetComponent<ParticleSystem>();
 
@@ -69,7 +57,7 @@ namespace CollaborativeDrawing
             count = 0;
             RtransformLocations = new List<Vector3>();
             RLastLoc = RedBrush.transform.position;
-            GLastLoc = GreenBrush.transform.position;
+         //   GLastLoc = GreenBrush.transform.position;
          //   BLastLoc = BlueBrush.transform.position;
            
             rquat = RedBrush.transform.rotation;
@@ -77,10 +65,18 @@ namespace CollaborativeDrawing
             
         }
 
-        private void Recognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
+       public void Update()
         {
-            word = args.text;
-          //  results.text = "You said: <b>" + word + "</b>";
+            if (RLastLoc != RedBrush.transform.position)
+            {
+               
+                RtransformLocations.Add(RedBrush.transform.position);
+                RLastLoc = RedBrush.transform.position;
+
+              
+
+
+            }
         }
 
         public void blueCollab()
@@ -100,18 +96,13 @@ namespace CollaborativeDrawing
         public void redCollab()
         {
             cntrR++;
-            if(cntrR%2 != 0)
+            if(cntrR%2 != 0) //for cntrR = 1, 3, 5...
             {
-                for (int i = 0; i < RtransformLocations.Count; i=i+2)
-                  {
-                      Instantiate(bubbles, 2 * RtransformLocations[i], rquat);
-
-                   }
-            } else
-            {
-
-            }
-            
+                for (int i = 0; i < RtransformLocations.Count; i++)
+                {
+                    Instantiate(bubbles, 2 * RtransformLocations[i], rquat);
+                }
+            }            
         }
 
         public void greenCollab()
@@ -128,62 +119,35 @@ namespace CollaborativeDrawing
         }
 
 
-        //turn on the renderer for "CollbObjects..."
-        public void Update()
-        {
-            switch (word)
+       
+       
+
+
+         public void OnSpeechKeywordRecognized(SpeechEventData eventData)
+         {
+
+            switch (eventData.RecognizedText)
             {
                 case "blue":
                     blueCollab();
+                    Debug.Log("blue");
                     break;
-                case "green":
+                case "green": //shrek
                     greenCollab();
+                    Debug.Log("green");
                     break;
                 case "red":
                     redCollab();
+                    Debug.Log("red");
                     break;
             }
+
+
+
+            
         }
 
-
-        /* public void OnSpeechKeywordRecognized(SpeechEventData eventData)
-         {
-           /*  count++;
-             if(count%2 != 0) //if count = 1, 3, 5...
-             {
-
-                     part.Play();
-                     partG.Play();
-
-
-                 sting = true;
-             } else
-             {
-                 sting = false;
-                 part.Stop();
-                 partG.Stop();
-             }
-
-            // collabs.SetActive(true);
-
-           //  DataLog vis = new DataLog();
-           //  vis.collabDesired();
-
-
-
-          //   var ins = new DataLog();
-          //   ins.collabDesired();
-            // throw new NotImplementedException();
-         }*/
-
-        private void OnApplicationQuit()
-        {
-            if (recognizer != null && recognizer.IsRunning)
-            {
-                recognizer.OnPhraseRecognized -= Recognizer_OnPhraseRecognized;
-                recognizer.Stop();
-            }
-        }
+     
 
 
     }

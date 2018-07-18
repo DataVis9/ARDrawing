@@ -91,12 +91,12 @@ public class DataLog : MonoBehaviour {
         if (cntr % 59 == 0)
         {
 
-            Debug.Log(Time.time);
+           
             writer.Write("Time: " + Time.time);
 
-            //    Debug.Log(RaycastHit);
+         
 
-            Debug.Log("GREAT SCOTT! " + ray.direction);
+        //    Debug.Log("GREAT SCOTT! " + ray.direction);
 
 
 

@@ -1,11 +1,17 @@
 fileFormatVersion: 2
 guid: cdbafba79612b2a4d873b0aa069d1a0a
-timeCreated: 1530282611
+timeCreated: 1531938236
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - bubbles: {fileID: 1166232995126004, guid: 673f4c3fcf169be47aa76d686cd0fad5, type: 2}
+  - RedBrush: {fileID: 1111029547903032, guid: 14ba434bae1ef5e428f8a195effe89a6, type: 2}
+  - GreenBrush: {fileID: 1390395790765860, guid: c6d4e21f7abae744891b17e0c2c5d2e2,
+      type: 2}
+  - BlueBrush: {fileID: 1078273653633560, guid: da3b7c1bd959a4443b7c498e2e8c6383,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
