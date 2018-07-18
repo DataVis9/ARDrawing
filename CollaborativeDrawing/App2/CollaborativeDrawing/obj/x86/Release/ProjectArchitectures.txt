@@ -1,0 +1,2 @@
+C:\Users\user\Desktop\CollaborativeDrawing\App2\CollaborativeDrawing\CollaborativeDrawing.csproj;x86
+C:\Users\user\Desktop\CollaborativeDrawing\App2\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
