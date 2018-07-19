@@ -33,8 +33,8 @@ public class DataLog : MonoBehaviour {
 
     public string filePath;
 
-    private string path;
-    public TextWriter writer;
+  //  private string path;
+ //   public TextWriter writer;
     protected string appendText;
 
   //public string[] lines2 = {"Started"};
@@ -48,14 +48,14 @@ public class DataLog : MonoBehaviour {
     void Start () {
 
         //NEW
-        filePath = Application.persistentDataPath + "/LogData.txt";
+        filePath = Application.persistentDataPath + "/LogFile.txt";
         appendText = "Started!";
+        File.AppendAllText(filePath, appendText);
+        //  lines.Add("start! ");
 
-      //  lines.Add("start! ");
-
-     //   mydocpath = Application.persistentDataPath;
-     // apd = new StreamWriter(Path.Combine(mydocpath, "LogFile2.txt"));
-     // Debug.Log("mark: " + apd);
+        //   mydocpath = Application.persistentDataPath;
+        // apd = new StreamWriter(Path.Combine(mydocpath, "LogFile2.txt"));
+        // Debug.Log("mark: " + apd);
 
 
         //if Data Log has no game object for brush, uncomment the lines below ...
@@ -86,17 +86,19 @@ public class DataLog : MonoBehaviour {
        
         ray.direction = Camera.main.transform.forward;
         ray.origin = Camera.main.transform.position;
-       
 
+    //    File.AppendAllText(filePath, "gaze: " + ray);
+    //    Debug.Log("g" + ray);
 
         //if cntr is divisible by 59; aka, every 59 frames, do this hullaballoo underneath
         if (cntr % 59 == 0)
         {
 
-           
-           // writer.Write("Time: " + Time.time);
+            File.AppendAllText(filePath, "\n" + "Time: " + Time.time);
+            File.AppendAllText(filePath, "gaze: " + ray);
+            // writer.Write("Time: " + Time.time);
             //lines.Add("Time: " + Time.time);
-         //   writer.Close();
+            //   writer.Close();
 
 
             //    Debug.Log("GREAT SCOTT! " + ray.direction);
@@ -108,7 +110,9 @@ public class DataLog : MonoBehaviour {
             {
                 
             //    writer.Write(" - Red Brush Position: " + RedBrush.transform.position);
-                appendText = appendText + "Red Brush Position: " + RedBrush.transform.position;
+              //  appendText = appendText + "Red Brush Position: " + RedBrush.transform.position;
+
+                File.AppendAllText(filePath, "Red Brush Position: " + RedBrush.transform.position );
 
                 RtransformLocations.Add(RedBrush.transform.position);
                 RLastLoc = RedBrush.transform.position;
@@ -121,7 +125,8 @@ public class DataLog : MonoBehaviour {
             if (GLastLoc != GreenBrush.transform.position)
             {
                 Debug.Log(" - Green Brush Position: " + GreenBrush.transform.position);
-            //    writer.Write(" - Green Brush Position: " + GreenBrush.transform.position);
+                //    writer.Write(" - Green Brush Position: " + GreenBrush.transform.position);
+                File.AppendAllText(filePath, "Green Brush Position: " + GreenBrush.transform.position);
                 GtransformLocations.Add(GreenBrush.transform.position);
                 GLastLoc = GreenBrush.transform.position;
           //      writer.Close();
@@ -133,7 +138,8 @@ public class DataLog : MonoBehaviour {
             if (BLastLoc != BlueBrush.transform.position)
             {
                 Debug.Log(" - Blue Brush Position: " + BlueBrush.transform.position);
-           //     writer.Write("Blue Brush Position: " + BlueBrush.transform.position);
+                //     writer.Write("Blue Brush Position: " + BlueBrush.transform.position);
+                File.AppendAllText(filePath, "Blue Brush Position: " + BlueBrush.transform.position);
                 BtransformLocations.Add(BlueBrush.transform.position);
                 BLastLoc = BlueBrush.transform.position;
                // writer.Close();
@@ -145,7 +151,8 @@ public class DataLog : MonoBehaviour {
             if (GradLastLoc != GradBrush.transform.position)
             {
                 Debug.Log(" - Gradient Brush Position: " + GradBrush.transform.position);
-           //     writer.WriteLine("Gradient Brush Position: " + GradBrush.transform.position);
+                //     writer.WriteLine("Gradient Brush Position: " + GradBrush.transform.position);
+                File.AppendAllText(filePath, "Gradient Brush Position: " + GradBrush.transform.position);
                 GradtransformLocations.Add(GradBrush.transform.position);
                 GradLastLoc = GradBrush.transform.position;
                
@@ -161,19 +168,22 @@ public class DataLog : MonoBehaviour {
     public void redVis(string stahp)
     {
         Debug.Log(stahp);
-   //     writer.WriteLine(stahp);
+        //     writer.WriteLine(stahp);
+        File.AppendAllText(filePath, stahp);
     }
 
     public void greenVis(string stahp)
     {
         Debug.Log(stahp);
-    //    writer.WriteLine(stahp);
+        //    writer.WriteLine(stahp);
+        File.AppendAllText(filePath, stahp);
     }
 
     public void blueVis(string stahp)
     {
         Debug.Log(stahp);
-   //     writer.WriteLine(stahp);
+        //     writer.WriteLine(stahp);
+        File.AppendAllText(filePath, stahp);
     }
 
 

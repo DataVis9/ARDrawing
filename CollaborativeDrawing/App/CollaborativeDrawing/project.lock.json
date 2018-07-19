@@ -15833,12 +15833,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ARDraw\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
       "projectName": "CollaborativeDrawing",
-      "projectPath": "C:\\Users\\user\\Desktop\\ARDraw\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
-      "projectJsonPath": "C:\\Users\\user\\Desktop\\ARDraw\\CollaborativeDrawing\\App\\CollaborativeDrawing\\project.json",
+      "projectPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
+      "projectJsonPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\project.json",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ARDraw\\CollaborativeDrawing\\App\\CollaborativeDrawing\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
@@ -15855,8 +15855,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\ARDraw\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\ARDraw\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             }
           }
         }

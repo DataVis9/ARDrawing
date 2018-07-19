@@ -1,6 +1,6 @@
 Metro
 PlayerPath?
-C:/Users/user/Desktop/BackUpAR/CollaborativeDrawing/App27
+C:/Users/user/Desktop/BackUpAR/CollaborativeDrawing/App
 7abde016883951c4ca4e7c44ce6adb2c Assembly-CSharp.dll:HoloToolkit.Unity.SceneLauncher
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.UX.BoundingBoxGizmoHandle
 c435bd06b74bbebac563a6d81dae369c Assembly-CSharp.dll:HoloToolkit.Unity.CanvasHelper

@@ -350,8 +350,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{628f42d5-af77-4bdd-852d-145a7b5d7f74}</Project>
+    <ProjectReference Include="C:\Users\user\Desktop\BackUpAR\CollaborativeDrawing\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
+      <Project>{9c7c43e3-828c-4f37-8cab-bc281eb822fa}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
