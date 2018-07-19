@@ -15,7 +15,7 @@ namespace CollaborativeDrawing
     public class SpeechCommandHandler : MonoBehaviour , ISpeechHandler
     {
 
- 
+        DataLog dat;
 
         ParticleSystem partBlue;
         ParticleSystem partGreen;
@@ -46,8 +46,9 @@ namespace CollaborativeDrawing
 
         void Start()
         {
-
          
+            dat = FindObjectOfType<DataLog>();
+
             partBlue = BlueBrush.GetComponent<ParticleSystem>();
             partGreen = GreenBrush.GetComponent<ParticleSystem>();
 
@@ -81,15 +82,21 @@ namespace CollaborativeDrawing
 
         public void blueCollab()
         {
-           
+        
 
             count++;
             if (count % 2 != 0)
             {
                 partBlue.Play();
+            
+                dat.blueVis("Collaborated with blue brush");
+                 
             } else
             {
                 partBlue.Stop();
+        
+                dat.blueVis("Stopped collaborating with blue brush");
+                 
             }
         }
 
@@ -102,7 +109,11 @@ namespace CollaborativeDrawing
                 {
                     Instantiate(bubbles, 2 * RtransformLocations[i], rquat);
                 }
-            }            
+                dat.redVis("Collaborated with red brush");
+            } else
+            {
+                dat.redVis("stopped collab with red brush");
+            }
         }
 
         public void greenCollab()
@@ -111,10 +122,11 @@ namespace CollaborativeDrawing
             if (cntrG % 2 != 0)
             {
                 partGreen.Play();
-
+                dat.greenVis("Collaborated with green brush");
             } else
             {
                 partGreen.Stop();
+                dat.greenVis("stopped collab with green brush");
             }
         }
 
@@ -128,15 +140,16 @@ namespace CollaborativeDrawing
 
             switch (eventData.RecognizedText)
             {
-                case "blue":
+                case "blue":                                                                    //wow I love Coldplay. 
                     blueCollab();
                     Debug.Log("blue");
+
                     break;
-                case "green": //shrek
+                case "green":                                                                   //shrek
                     greenCollab();
                     Debug.Log("green");
                     break;
-                case "red":
+                case "red":                                                                     //Vision
                     redCollab();
                     Debug.Log("red");
                     break;

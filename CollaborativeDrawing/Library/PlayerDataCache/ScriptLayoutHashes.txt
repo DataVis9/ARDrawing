@@ -1,6 +1,6 @@
 Metro
 PlayerPath?
-C:/Users/user/Desktop/CollaborativeDrawing/App
+C:/Users/user/Desktop/ARDraw/CollaborativeDrawing/App
 7abde016883951c4ca4e7c44ce6adb2c Assembly-CSharp.dll:HoloToolkit.Unity.SceneLauncher
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.UX.BoundingBoxGizmoHandle
 c435bd06b74bbebac563a6d81dae369c Assembly-CSharp.dll:HoloToolkit.Unity.CanvasHelper
@@ -271,7 +271,7 @@ a25a8c9491d9347bc4d0987ee1b2f8ad Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.O
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.InputManager
 52a5eecb4a60da50a2297b00487ddb57 Assembly-CSharp.dll:HoloToolkit.UX.Progress.ProgressIndicator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.DebugPanel
-993c58bd2578f7ee89434eab4b9145aa Assembly-CSharp.dll:CollaborativeDrawing.SpeechCommandHandler
+4dc254399eb5c2b9c4a83ef2c0d46d54 Assembly-CSharp.dll:CollaborativeDrawing.SpeechCommandHandler
 173ecf8cc500c312e9f70f78fdef4847 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.HandGuidance
 36cf5bb8cc69a9512128612388136c13 Assembly-CSharp.dll:HoloToolkit.Unity.StabilizationPlaneModifier
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.CalibrationSpace

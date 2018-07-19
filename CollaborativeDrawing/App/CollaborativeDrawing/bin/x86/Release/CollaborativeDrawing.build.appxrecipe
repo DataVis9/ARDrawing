@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f2a36fab-1d4b-4644-aedf-0eca52b2e501</PackageIdentityName>
     <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\CollaborativeDrawing.exe">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\CollaborativeDrawing.exe">
       <PackagePath>entrypoint\CollaborativeDrawing.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -349,7 +349,7 @@
     <AppxPackagedFile Include="C:\Users\user\Desktop\Unities\2.2\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityEngineProxy.dll">
       <PackagePath>UnityEngineProxy.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Unprocessed\WinRTLegacy.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Unprocessed\WinRTLegacy.dll">
       <PackagePath>WinRTLegacy.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\Desktop\Unities\2.2\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\UnityPlayer.dll">
@@ -373,245 +373,245 @@
     <AppxPackagedFile Include="C:\Users\user\Desktop\Unities\2.2\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Release\WinRTBridge.winmd">
       <PackagePath>WinRTBridge.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Resource.res">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Resource.res">
       <PackagePath>Resource.res</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\PlaneFinding.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\PlaneFinding.dll">
       <PackagePath>PlaneFinding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\MicStreamSelector.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\MicStreamSelector.dll">
       <PackagePath>MicStreamSelector.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\GpuTiming.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\GpuTiming.dll">
       <PackagePath>GpuTiming.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\SharingClient.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\SharingClient.dll">
       <PackagePath>SharingClient.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\SpatialUnderstanding.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\SpatialUnderstanding.dll">
       <PackagePath>SpatialUnderstanding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\boot.config">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\globalgamemanagers">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\level0">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\level0">
       <PackagePath>Data\level0</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\managedAssemblies.txt">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\resources.pri">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TilemapModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TextRenderingModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UIModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UIElementsModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TerrainPhysicsModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ScreenCaptureModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.PhysicsModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TerrainModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.StyleSheetsModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.SpriteMaskModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.VRModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.VideoModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.VehiclesModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.WindModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.WebModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestWWWModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityConnectModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityAnalyticsModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UNETModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestTextureModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestAudioModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Physics2DModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AudioModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ARModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AnimationModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.CrashReportingModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.CoreModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ClothModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AIModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AccessibilityModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.JSONSerializeModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.InputModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.PerformanceReportingModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ParticleSystemModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ParticlesLegacyModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.IMGUIModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.GameCenterModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.DirectorModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ImageConversionModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.GridModule.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Timeline.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\nunit.framework.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UI.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.SpatialTracking.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Analytics.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.HoloLens.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Networking.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\GLTFSerializationUWP.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\Assembly-CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\Desktop\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\Core\CollaborativeDrawing.exe">
+    <AppxPackagedFile Include="C:\Users\user\Desktop\ARDraw\CollaborativeDrawing\App\CollaborativeDrawing\bin\x86\Release\Core\CollaborativeDrawing.exe">
       <PackagePath>CollaborativeDrawing.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
