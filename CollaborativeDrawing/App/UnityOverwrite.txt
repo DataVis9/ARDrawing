@@ -5,9 +5,9 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-CollaborativeDrawing.sln: 627F052C97180AA98A4BF3DED8D4BA3F
+CollaborativeDrawing.sln: 12975E70B3DE7339B34053546DA10362
 CollaborativeDrawing\App.cs: 8E19D7AC4131BAC828FD0615EC00CF77
-CollaborativeDrawing\CollaborativeDrawing.csproj: E4760C411D9E7B61D872BD394E29750B
+CollaborativeDrawing\CollaborativeDrawing.csproj: 0A353E2BEE3E549655F3D7AB8C3F434F
 CollaborativeDrawing\CollaborativeDrawing.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 CollaborativeDrawing\Package.appxmanifest: B4EB0F13E4DEE055056AC43F832F101F
 CollaborativeDrawing\project.json: 1D02BC64BAC0D041019673A1C4C51737

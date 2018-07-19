@@ -29,15 +29,33 @@ public class DataLog : MonoBehaviour {
 
 
     private Ray ray = new Ray();
- 
-    private string path;
-    private TextWriter writer;
 
+
+    public string filePath;
+
+    private string path;
+    public TextWriter writer;
+    protected string appendText;
+
+  //public string[] lines2 = {"Started"};
+  //   public List<string> lines;
+  // public string mydocpath;
+
+  //   public StreamWriter apd;
     
 
     // Use this for initialization
     void Start () {
 
+        //NEW
+        filePath = Application.persistentDataPath + "/LogData.txt";
+        appendText = "Started!";
+
+      //  lines.Add("start! ");
+
+     //   mydocpath = Application.persistentDataPath;
+     // apd = new StreamWriter(Path.Combine(mydocpath, "LogFile2.txt"));
+     // Debug.Log("mark: " + apd);
 
 
         //if Data Log has no game object for brush, uncomment the lines below ...
@@ -55,18 +73,17 @@ public class DataLog : MonoBehaviour {
         BLastLoc = BlueBrush.transform.position;
         GradLastLoc = GradBrush.transform.position;
 
-
         
-
-        path = Path.Combine(Application.persistentDataPath, "LogFile.txt");
-        writer = File.CreateText(path);
+        //WRITER
+       // path = Path.Combine(Application.persistentDataPath, "LogFile.txt");
+       // writer = File.CreateText(path);
         
 	}
 
     // Update is called once per frame
     void Update()
     {
-
+       
         ray.direction = Camera.main.transform.forward;
         ray.origin = Camera.main.transform.position;
        
@@ -77,11 +94,12 @@ public class DataLog : MonoBehaviour {
         {
 
            
-            writer.Write("Time: " + Time.time);
+           // writer.Write("Time: " + Time.time);
+            //lines.Add("Time: " + Time.time);
+         //   writer.Close();
 
-         
 
-        //    Debug.Log("GREAT SCOTT! " + ray.direction);
+            //    Debug.Log("GREAT SCOTT! " + ray.direction);
 
 
 
@@ -89,10 +107,12 @@ public class DataLog : MonoBehaviour {
             if (RLastLoc != RedBrush.transform.position)
             {
                 
-                writer.Write(" - Red Brush Position: " + RedBrush.transform.position);
+            //    writer.Write(" - Red Brush Position: " + RedBrush.transform.position);
+                appendText = appendText + "Red Brush Position: " + RedBrush.transform.position;
+
                 RtransformLocations.Add(RedBrush.transform.position);
                 RLastLoc = RedBrush.transform.position;
-            
+           //     writer.Close();
             
 
             }
@@ -101,11 +121,11 @@ public class DataLog : MonoBehaviour {
             if (GLastLoc != GreenBrush.transform.position)
             {
                 Debug.Log(" - Green Brush Position: " + GreenBrush.transform.position);
-                writer.Write(" - Green Brush Position: " + GreenBrush.transform.position);
+            //    writer.Write(" - Green Brush Position: " + GreenBrush.transform.position);
                 GtransformLocations.Add(GreenBrush.transform.position);
                 GLastLoc = GreenBrush.transform.position;
-               
-          
+          //      writer.Close();
+
 
             }
 
@@ -113,11 +133,11 @@ public class DataLog : MonoBehaviour {
             if (BLastLoc != BlueBrush.transform.position)
             {
                 Debug.Log(" - Blue Brush Position: " + BlueBrush.transform.position);
-                writer.Write("Blue Brush Position: " + BlueBrush.transform.position);
+           //     writer.Write("Blue Brush Position: " + BlueBrush.transform.position);
                 BtransformLocations.Add(BlueBrush.transform.position);
                 BLastLoc = BlueBrush.transform.position;
-               
-           
+               // writer.Close();
+
 
             }
 
@@ -125,7 +145,7 @@ public class DataLog : MonoBehaviour {
             if (GradLastLoc != GradBrush.transform.position)
             {
                 Debug.Log(" - Gradient Brush Position: " + GradBrush.transform.position);
-                writer.WriteLine("Gradient Brush Position: " + GradBrush.transform.position);
+           //     writer.WriteLine("Gradient Brush Position: " + GradBrush.transform.position);
                 GradtransformLocations.Add(GradBrush.transform.position);
                 GradLastLoc = GradBrush.transform.position;
                
@@ -141,19 +161,19 @@ public class DataLog : MonoBehaviour {
     public void redVis(string stahp)
     {
         Debug.Log(stahp);
-        writer.WriteLine(stahp);
+   //     writer.WriteLine(stahp);
     }
 
     public void greenVis(string stahp)
     {
         Debug.Log(stahp);
-        writer.WriteLine(stahp);
+    //    writer.WriteLine(stahp);
     }
 
     public void blueVis(string stahp)
     {
         Debug.Log(stahp);
-        writer.WriteLine(stahp);
+   //     writer.WriteLine(stahp);
     }
 
 
@@ -161,7 +181,25 @@ public class DataLog : MonoBehaviour {
     {
         //this method always causes an error in unity; best idea would be to just manually track whether or not the test used collaboration or not
         Debug.Log("test");
-        writer.WriteLine("Collaboration desired");
+     //   writer.WriteLine("Collaboration desired");
+       
+    }
+
+    private void OnApplicationQuit()
+    {
+        /*using (StreamWriter outputFile = new StreamWriter(Path.Combine(mydocpath, "LogData.txt")))
+        {
+            foreach (string line in lines)
+                outputFile.WriteLine(line);
+            foreach (string line in lines )
+                Debug.Log(line);
+
+        }
+        File.AppendAllLines(Path.Combine(mydocpath, "WriteFile.txt"), lines);*/
+        Debug.Log(appendText);
+        File.AppendAllText(filePath, appendText);
+
+       // writer.Close();
     }
 
 

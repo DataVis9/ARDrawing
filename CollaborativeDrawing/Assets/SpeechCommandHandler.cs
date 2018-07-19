@@ -16,6 +16,8 @@ namespace CollaborativeDrawing
     {
 
         DataLog dat;
+        TrailRenderer invisiTrail;
+        TrailRenderer redTrail;
 
         ParticleSystem partBlue;
         ParticleSystem partGreen;
@@ -24,8 +26,8 @@ namespace CollaborativeDrawing
         int count;
         int cntrR;
         int cntrG;
-       
 
+      //  public GameObject Invisible;
         public GameObject RedBrush; 
         public GameObject GreenBrush;
         public GameObject BlueBrush;
@@ -48,6 +50,8 @@ namespace CollaborativeDrawing
         {
          
             dat = FindObjectOfType<DataLog>();
+          //  invisiTrail = Invisible.GetComponent<TrailRenderer>();
+            redTrail = RedBrush.GetComponent<TrailRenderer>();
 
             partBlue = BlueBrush.GetComponent<ParticleSystem>();
             partGreen = GreenBrush.GetComponent<ParticleSystem>();
@@ -131,7 +135,12 @@ namespace CollaborativeDrawing
         }
 
 
-       
+       public void clearAll()
+        {
+            //invisiTrail = Invisible.GetComponent<TrailRenderer>();
+            //Destroy(RedBrush.GetComponent<TrailRenderer>());
+       //     RedBrush.component
+        }
        
 
 
@@ -152,6 +161,9 @@ namespace CollaborativeDrawing
                 case "red":                                                                     //Vision
                     redCollab();
                     Debug.Log("red");
+                    break;
+                case "clear":
+                    clearAll();
                     break;
             }
 
