@@ -1,2 +1,2 @@
-C:\Users\user\Desktop\BackUpAR\CollaborativeDrawing\App\CollaborativeDrawing\CollaborativeDrawing.csproj;x86
-C:\Users\user\Desktop\BackUpAR\CollaborativeDrawing\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Willis Fulmer\Desktop\CollaborativeDrawing\CollaborativeDrawing\App\CollaborativeDrawing\CollaborativeDrawing.csproj;x86
+C:\Users\Willis Fulmer\Desktop\CollaborativeDrawing\CollaborativeDrawing\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86

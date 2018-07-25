@@ -22,7 +22,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 262
+  controlID: 115
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -49,6 +49,7 @@ MonoBehaviour:
     y: 499
     width: 719
     height: 519
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
@@ -122,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 263
+  controlID: 116
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 264
+  controlID: 117
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 265
+  controlID: 92
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,6 +224,7 @@ MonoBehaviour:
     y: 92
     width: 781
     height: 386
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 2292.6732499
   m_2DMode: 0
@@ -240,6 +242,7 @@ MonoBehaviour:
     showSkybox: 0
     showFlares: 0
     showImageEffects: 0
+    showParticleSystems: 1
   grid:
     xGrid:
       m_Target: 0
@@ -298,6 +301,7 @@ MonoBehaviour:
     y: -29
     width: 975
     height: 676
+  m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,8 +320,8 @@ MonoBehaviour:
     y: 0
     width: 412
     height: 407
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -349,11 +353,12 @@ MonoBehaviour:
     y: 92
     width: 408
     height: 386
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d40c0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b4e5ffff8ae6ffffece9ffffa0fbffff00000000
+    m_ExpandedIDs: 16f1ffffeef1ffff68f5ffff98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -399,7 +404,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 211
+  controlID: 118
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -418,8 +423,8 @@ MonoBehaviour:
     y: 0
     width: 721
     height: 540
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -476,6 +481,7 @@ MonoBehaviour:
     y: 499
     width: 470
     height: 519
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -487,19 +493,18 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\user\Desktop\BackUpAR\CollaborativeDrawing
+  m_LastProjectPath: C:\Users\Willis Fulmer\Desktop\CollaborativeDrawing\CollaborativeDrawing
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 000000005239000066390000a0390000ca3900000a3a00009e3a0000a03a0000bc3a0000ce3a0000023c0000543c0000c63c00000c3e0000ea3e0000d23f0000e23f00000e400000204000009640000014410000164100003c410000b6410000d2410000e64100000e420000304200004c420000fe43000000480000
+    m_ExpandedIDs: 00000000d4390000e6390000203a00004a3a00008a3a0000203b0000223b00003e3b0000503b0000883c0000da3c00004e3d0000923e00006e3f0000584000006840000098400000aa40000022410000a0410000a2410000c84100004442000060420000764200009e420000c0420000da4200009444000096480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,9 +530,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d40c0000
-    m_LastClickedID: 3284
-    m_ExpandedIDs: 000000005239000066390000a0390000ca3900000a3a00009e3a0000a03a0000bc3a0000ce3a0000023c0000543c0000c63c00000c3e0000ea3e0000d23f0000e23f00000e400000204000009640000014410000164100003c410000b6410000d2410000e64100000e420000304200004c420000fe43000000480000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000d4390000e6390000203a00004a3a00008a3a0000203b0000223b00003e3b0000503b0000883c0000da3c00004e3d0000923e00006e3f0000584000006840000098400000aa40000022410000a0410000a2410000c84100004442000060420000764200009e420000c0420000da4200009444000096480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,8 +557,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d40c0000
-    m_LastClickedInstanceID: 3284
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -634,6 +639,7 @@ MonoBehaviour:
     y: 92
     width: 723
     height: 926
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -666,6 +672,7 @@ MonoBehaviour:
     y: 92
     width: 554
     height: 926
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:

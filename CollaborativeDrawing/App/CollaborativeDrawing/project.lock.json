@@ -1922,6 +1922,9 @@
         "type": "project",
         "framework": "UAP,Version=v10.0.10240",
         "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
@@ -3704,6 +3707,9 @@
         "type": "project",
         "framework": "UAP,Version=v10.0.10240",
         "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
@@ -5449,6 +5455,9 @@
         "type": "project",
         "framework": "UAP,Version=v10.0.10240",
         "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
@@ -7238,6 +7247,9 @@
         "type": "project",
         "framework": "UAP,Version=v10.0.10240",
         "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
@@ -8983,6 +8995,9 @@
         "type": "project",
         "framework": "UAP,Version=v10.0.10240",
         "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
@@ -10772,6 +10787,9 @@
         "type": "project",
         "framework": "UAP,Version=v10.0.10240",
         "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
@@ -12517,6 +12535,9 @@
         "type": "project",
         "framework": "UAP,Version=v10.0.10240",
         "dependencies": {
+          "Microsoft.ApplicationInsights": "1.0.0",
+          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
           "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
@@ -15828,23 +15849,23 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\Willis Fulmer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
+      "projectUniqueName": "C:\\Users\\Willis Fulmer\\Desktop\\CollaborativeDrawing\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
       "projectName": "CollaborativeDrawing",
-      "projectPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
-      "projectJsonPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\project.json",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\CollaborativeDrawing\\obj\\",
+      "projectPath": "C:\\Users\\Willis Fulmer\\Desktop\\CollaborativeDrawing\\CollaborativeDrawing\\App\\CollaborativeDrawing\\CollaborativeDrawing.csproj",
+      "projectJsonPath": "C:\\Users\\Willis Fulmer\\Desktop\\CollaborativeDrawing\\CollaborativeDrawing\\App\\CollaborativeDrawing\\project.json",
+      "packagesPath": "C:\\Users\\Willis Fulmer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Willis Fulmer\\Desktop\\CollaborativeDrawing\\CollaborativeDrawing\\App\\CollaborativeDrawing\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Willis Fulmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -15855,8 +15876,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\BackUpAR\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\Willis Fulmer\\Desktop\\CollaborativeDrawing\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\Willis Fulmer\\Desktop\\CollaborativeDrawing\\CollaborativeDrawing\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             }
           }
         }

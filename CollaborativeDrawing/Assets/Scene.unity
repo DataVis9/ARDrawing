@@ -152,6 +152,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 198917431578480606, guid: da3b7c1bd959a4443b7c498e2e8c6383,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 198917431578480606, guid: da3b7c1bd959a4443b7c498e2e8c6383,
+        type: 2}
+      propertyPath: randomSeed
+      value: 1902041462
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da3b7c1bd959a4443b7c498e2e8c6383, type: 2}
   m_IsPrefabParent: 0
@@ -193,6 +203,16 @@ Prefab:
     - target: {fileID: 4989443251708052, guid: c6d4e21f7abae744891b17e0c2c5d2e2, type: 2}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 198377162447871032, guid: c6d4e21f7abae744891b17e0c2c5d2e2,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 198377162447871032, guid: c6d4e21f7abae744891b17e0c2c5d2e2,
+        type: 2}
+      propertyPath: randomSeed
+      value: 1217670792
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6d4e21f7abae744891b17e0c2c5d2e2, type: 2}
@@ -506,7 +526,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubbles: {fileID: 1166232995126004, guid: 673f4c3fcf169be47aa76d686cd0fad5, type: 2}
-  Invisible: {fileID: 0}
   RedBrush: {fileID: 1172043468}
   GreenBrush: {fileID: 600423600}
   BlueBrush: {fileID: 2116464084}
@@ -546,6 +565,7 @@ MonoBehaviour:
   BtransformLocations: []
   GradtransformLocations: []
   colorOrder: []
+  filePath: 
 --- !u!1 &1148443849 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1790892660306306, guid: ae893cbf2b5100f4aa508c52383bc3b2,
